@@ -21,7 +21,7 @@ document.querySelector('#create-note').addEventListener('click', function (e) {
         updatedAt: timestamp
     })
     saveNotes(notes);
-    location.assign(`/edit.html#${id}`);
+    location.assign(`../public/edit.html#${id}`);
 })
 
 document.querySelector('#search-text').addEventListener('input', (e) => {
